@@ -6,21 +6,27 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Login in - Webflow</title>
     <link rel="icon" href="images/webflow-logo.png">
-
 </head>
 <body>
     <h1></h1>
-<img src="images/webflow-full-black.png" alt="Logo" width="85" style="margin-right: 10%;">
+    <img src="images/webflow-full-black.png" alt="Logo" width="85" style="margin-right: 10%;">
 
-
-  <div class="center-container">
-        <div class="loginb">Login</div>
+    <div class="center-container">
+        <img src="images/login_account.png" alt="login in" class="login-heading">
+        <button class="google-login-button">
+            <img src="images/login_to_google.png" alt="Sign in with Google">
+        </button>
+        <p class="separator">or</p>
+        <form class="login-form">
+            <input type="text" placeholder="Email or Username" class="login-input">
+            <input type="password" placeholder="Password" class="login-input">
+            <button type="submit" class="login-button">Log in</button>
+        </form>
+        <div class="additional-links">
+            <a href="https://webflow.com/dashboard/signup" class="dont-have-account">Don't have an account</a>
+            <a href="https://webflow.com/dashboard/forgot?ref=login" class="forgot-password">Forgot password</a>
+        </div>
+        <a href = "https://webflow.com/dashboard/login?sso=true" class="login-sso">Login with SSO</a>
     </div>
-
-
-
-
-
-
 </body>
 </html>
