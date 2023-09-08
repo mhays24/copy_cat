@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+    margin-top: 0; /* Remove default margin to ensure the container is at the top */
+}
 .center-container {
             display: flex;
             justify-content: center;
@@ -60,10 +64,15 @@
     cursor: pointer;
 }
 
-.google-login-button img {
-    width: 400px; 
+.google-login-button{
+    width: 410px; 
     height: auto; 
 }
+.pic{
+    width: 400px; 
+    height: auto;
+}
+
 .separator {
     font-size: 18px;
     margin: 10px 0;
@@ -117,7 +126,11 @@
     font-size: 13px; 
 }
 
-
+.webflow{
+    position: absolute;
+    top: 8%;
+    left: 50;
+}
 
 
 
